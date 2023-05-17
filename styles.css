@@ -43,10 +43,58 @@ input {
 }
 
 .postcard-footer {
-    text-align: center;
+	text-align: center;
 }
 
 button {
-    background-color: rgb(112, 33, 187);
-    padding: 5px 10px;
+	background-color: rgb(112, 33, 187);
+	padding: 5px 10px;
+}
+body {
+	background-color: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+p {
+	color: blue;
+}
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0%;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-rigth {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px;
+}
+.postcard-footer{
+	text-align: center;
+}
+button{
+	background-color: rgb(82, 22, 139);
+	padding: 5px 10px;
 }
